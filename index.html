@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial scale=1">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap">
+    </head>
+<body>
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">About Me</a>
+  <a href="resume.html">Resume</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <div class="container">
+    <div class="row">
+    <div class="about">
+        <div class="image-cropper"><img src="profile.jpeg" alt="Monica" class="profile-pic"></div></div>
+    <div class="column">
+    <h2>About Me</h2>
+        <p>
+            Hi, I'm Monica. I graduated from Iowa State University in 2018 with a Bachelor's of Science
+            in Technical Communication. 
+        </p>
+        
+        <p>
+            In the age of tech, you see a lot of complex information out there. As a technical communicator, it's my job to do the behind-the-scenes
+            work of deconstructing verbose scientific and engineering jargon and turn it into clear, concise content for the masses.</p>
+        
+        <p>It's a skill that many companies unfortunately look over despite its ability to drastically improve customer satisfaction. When a product 
+           has truly helpful resources (documentation, training videos, brochures), customers are more likely to repeat business because they know
+           that the company has invested in the infrastructure to help them.
+        </p>   
+        
+        <p>
+           This opportunity to not only help people, but also the companies themselves (big or small), is what drove me to love Technical Communication.
+        </p>
+    </div>
+        </div>
+    </div>
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
